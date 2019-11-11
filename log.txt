@@ -27,6 +27,7 @@ cat f1.txt
 git commit -m "add text to f1.txt" -a
 git checkout -b new_branch1
 echo "new_branch1">f1.txt
+git commit -a -m "add new text to f1.txt"
 
 - Play with checkout
 git checkout master
