@@ -1,0 +1,38 @@
+
+- Create your own repository
+ I created own repository on github
+ https://github.com/mike-popryaga/Home_work_GL_PrC_GIT
+ 
+- Clone it
+git clone https://github.com/mike-popryaga/Home_work_GL_PrC_GIT.git
+
+- Add files, make a commit
+git add .
+git commit -m " hello "
+git push
+
+- Add 5 files, after that commit first 3 of them and after that the other 2
+git add f1.txt f2.txt f3.txt
+git commit -m "added 3 files"
+git add f4.txt f5.txt
+
+- Unstage files
+git status
+git reset HEAD
+git status
+
+- Play with branches creation 
+echo "master">f1.txt
+cat f1.txt
+git commit -m "add text to f1.txt" -a
+git checkout -b new_branch1
+echo "new_branch1">f1.txt
+
+- Play with checkout
+git checkout master
+cat f1.txt
+git checkout HEAD~1
+cat f1.txt
+git checkout master
+
+
